@@ -4,21 +4,21 @@ public class ContaTerminal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println( "Bem-vindo ao Banco Santander!");
+        System.out.println("Bem-vindo ao Banco Santander!");
 
-        System.out.println("Por favor, digite o número da Agência:");
+        System.out.println("Por favor, digite o número da Agência: ");
         String agencia = scanner.nextLine();
 
-        System.out.println("Por favor, digite o número da Conta:");
+        System.out.println( "Por favor, digite o número da Conta: ");
         int numero = scanner.nextInt();
         scanner.nextLine();
 
-        System.out.println("Por favor, digite o nome do Cliente:");
+        System.out.println( "Por favor, digite o nome do Cliente: ");
         String nomeCliente = scanner.nextLine();
 
         double saldo = 0.0;
 
-        System.out.println("Faça seu primeiro depósito! Digite o valor:");
+        System.out.println( "Faça seu primeiro depósito! Digite o valor: ");
         double depositoInicial = scanner.nextDouble();
 
         if (depositoInicial > 0) {
